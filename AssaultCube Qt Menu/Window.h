@@ -3,7 +3,8 @@
 #include <QtWidgets/QMainWindow>
 #include <QCheckBox>
 
-#include <EOUL\Window.h>
+#include <WinSock2.h>
+#include <EOUL\Window.hpp>
 #include <thread>
 
 #include "ui_Window.h"

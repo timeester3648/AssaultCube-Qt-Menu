@@ -97,7 +97,7 @@ Window::Window(QWidget* parent) : QMainWindow(parent) {
 
 		}
 
-		this->base_address = this->window->getBaseAdress("ac_client.exe");
+		this->base_address = this->window->getBaseAdress(L"ac_client.exe");
 
 		this->window->readMemory((this->base_address + ofs_BaseModule), &this->base_module_address, sizeof(this->base_module_address));
 

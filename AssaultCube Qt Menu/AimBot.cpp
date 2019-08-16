@@ -1,8 +1,8 @@
 #include "AimBot.h"
 #include "Player.h"
 
-#include <EOUL\Maths.h>
-#include <EOUL\Constants.h>
+#include <EOUL\Maths.hpp>
+#include <EOUL\Constants.hpp>
 
 #define QDegToRad(A) (A * 180.0f / EOUL::Math::PI)
 #define QACUBE(A) (A / EOUL::Math::PI * 180.0f + 180.0f)
